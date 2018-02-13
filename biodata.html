@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Purwadhika</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Biodata</legend>
+        <p>
+        <table>
+            <tr>
+                <td rowspan="15" width="190px">
+                <img src="http://www.pngmart.com/files/1/Cute-Cat-PNG.png" width="190px" height="220px" id="gambar">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="nama">Nama : </label>
+                    <input type="text" id="nama">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="tempat">Tempat : </label>
+                    <input type="text" id="tempat">
+                </td>
+            <tr>
+                <td>
+                    <label for="tanggal">Tanggal Lahir : </label>
+                    <input type="number" name="" id="tanggal" min="1" max="31">
+                    <label for="bulan"></label>
+                    <select name="" id="bulan">
+                        <option value="Januari">Januari</option>
+                        <option value="Februari">Februari</option>
+                        <option value="Maret">Maret</option>
+                        <option value="April">April</option>
+                        <option value="Mei">Mei</option>
+                        <option value="Juni">Juni</option>
+                        <option value="Juli">Juli</option>
+                        <option value="Agustus">Agustus</option>
+                        <option value="September">September</option>
+                        <option value="Oktober">Oktober</option>
+                        <option value="November">November</option>
+                        <option value="Desember">Desember</option>
+                    </select>
+                    <label for="tahun"></label>
+                    <input type="number" name="" id="tahun" min="1990" max="2010">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Jenis Kelamin : </label>
+                    <input type="radio" id="pria" name="pria" value="pria"> Pria
+                    <input type="radio" id="wanita" name="wanita" value="wanita"> Wanita
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">Phone :</label>
+                    <input type="number" id="phone" placeholder="0812-1234-4321">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email : </label>
+                    <input type="text" id="email" placeholder="example@gmail.com"> 
+                </td>
+            </tr>
+        </table>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Riwayat Pendidikan</legend>
+        <p>
+            <table>
+                <tr>
+                    <td><label for="sd">SD : </label></td>
+                    <td><input type="text" id="sd" placeholder="Nama Sekolah"></td>
+                    <td><input type="number" id="sdlulus" placeholder="Tahun Lulus"></td>
+                    <td><input type="checkbox" id="sdisicek">Tidak diisi</td>
+                </tr>
+                <tr>
+                    <td><label for="smp">SMP : </label></td>
+                    <td><input type="text" id="smp" placeholder="Nama Sekolah"></td>
+                    <td><input type="number" id="smplulus" placeholder="Tahun Lulus"></td>
+                    <td><input type="checkbox" id="smpisicek">Tidak diisi</td>
+                </tr>
+                <tr>
+                    <td><label for="sma">SMA/SMK : </label></td>
+                    <td><input type="text" id="sma" placeholder="Nama Sekolah"></td>
+                    <td><input type="number" id="smalulus" placeholder="Tahun Lulus"></td>
+                    <td><input type="checkbox" id="smaisicek">Tidak diisi</td>
+                </tr>
+                <tr>
+                    <td><label for="s1">UNIVERSITAS : </label></td>
+                    <td><input type="text" id="s1" placeholder="Nama UNIVERSITAS"></td>
+                    <td><input type="number" id="s1lulus" placeholder="Tahun Lulus"></td>
+                    <td><input type="checkbox" id="s1isicek">Tidak diisi</td>
+                </tr>
+            </table>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Riwayat Pekerjaan</legend>
+        <p>
+            <table>
+                <tr>
+                    <th><label for="perusahaan">Nama Perusahaan</label></th>
+                    <th><label for="lamabekerja">Lama Bekerja</label></th>
+                    <th><label for="posisi">Jabatan</label></th>
+                </tr>
+                <tr>
+                    <td><input type="text" id="perusahaan1"></td>
+                    <td><select name="" id="lamabekerja1">
+                        <option value="1 Tahun">1 Tahun</option>
+                        <option value="3 Tahun">3 Tahun</option>
+                        <option value="5 Tahun">5 Tahun</option>
+                        <option value="7 Tahun">7 Tahun</option>
+                        <option value="10 Tahun">10 Tahun</option>
+                        <option value="Diatas 10 Tahun">Diatas 10 Tahun</option>
+                    </select></td>
+                    <td><select name="" id="posisi1">
+                        <option value="CEO (Chief Executive Officer)">CEO (Chief Executive Officer)</option>
+                        <option value="CTO (Chief Technical Officer)">CTO (Chief Technical Officer)</option>
+                        <option value="CFO (Chief Financial Officer">CFO (Chief Financial Officer)</option>
+                        <option value="WPP (Wakil Presiden Penjualan)">WPP (Wakil Presiden Penjualan)</option>
+                        <option value="CMO (Chief Marketing Officer)">CMO (Chief Marketing Officer)</option>
+                        <option value="COO (Chief Operating Officer)">COO (Chief Operating Officer)</option>
+                    </select></td>
+                    <td><input type="checkbox" id="perusahaan1cek">Tidak diisi</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="perusahaan2"></td>
+                    <td><select name="" id="lamabekerja2">
+                        <option value="1 Tahun">1 Tahun</option>
+                        <option value="3 Tahun">3 Tahun</option>
+                        <option value="5 Tahun">5 Tahun</option>
+                        <option value="7 Tahun">7 Tahun</option>
+                        <option value="8 Tahun">10 Tahun</option>
+                        <option value="Diatas 10 Tahun">Diatas 10 Tahun</option>
+                    </select></td>
+                    <td><select name="" id="posisi2">
+                        <option value="CEO (Chief Executive Officer)">CEO (Chief Executive Officer)</option>
+                        <option value="CTO (Chief Technical Officer)">CTO (Chief Technical Officer)</option>
+                        <option value="CFO (Chief Financial Officer">CFO (Chief Financial Officer)</option>
+                        <option value="WPP (Wakil Presiden Penjualan)">WPP (Wakil Presiden Penjualan)</option>
+                        <option value="CMO (Chief Marketing Officer)">CMO (Chief Marketing Officer)</option>
+                        <option value="COO (Chief Operating Officer)">COO (Chief Operating Officer)</option>
+                    </select></td>
+                    <td><input type="checkbox" id="perusahaan2cek">Tidak diisi</td>
+                </tr>
+            </table>
+            <hr>
+            <button onclick="biodata()">Submit</button>    
+        </p>
+    </fieldset>
+    <p id="hasil"></p>
+    
+
+    <script>
+        const id = x => document.getElementById(x);
+        function biodata(){
+            let data1 = id("nama").value;
+            let data2 = id("tempat").value;
+            let data3 = id("tanggal").value;
+            let data3a = id("bulan").value;
+            let data3b = id("tahun").value;
+            let data4 = "";
+                if( id("pria").checked == true ){
+                    data4 += "Pria"
+                } else {
+                    data4 += "Wanita"
+                }
+            let data5 = id("phone").value;
+            let data5a = id("email").value;
+            let data6 = id("sd").value;
+            let data6a = id("sdlulus").value;
+            let data7 = id("smp").value;
+            let data7a = id("smplulus").value;
+            let data8 = id("sma").value;
+            let data8a = id("smalulus").value;
+            let data9 = id("s1").value;
+            let data9a = id("s1lulus").value;
+            let data10 = id("perusahaan1").value;
+            let data10a = id("perusahaan2").value;
+            let data11 = id("lamabekerja1").value;
+            let data11a = id("lamabekerja2").value;
+            let data12 = id("posisi1").value;
+            let data12a = id("posisi2").value;
+            let data13 = id("gambar").src;
+            id("hasil").innerHTML =
+            `<table>
+                <tr>
+                    <td>Hasil Biodata</td>
+                </tr>
+                <tr>
+                    <td><img width="190" src='${data13}'></td>
+                </tr>
+                <br><br><br>
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td>: ${data1}</td>
+                </tr><br>
+                <tr>
+                    <td>Tempat & Tanggal Lahir</td>
+                    <td>: ${data2}, ${data3} ${data3a} ${data3b}</td>
+                </tr><br>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>: ${data4}</td>
+                </tr><br> 
+                <tr>
+                    <td>No Hp</td>
+                    <td>: ${data5}</td>
+                </tr><br>
+                <tr>
+                    <td>Email</td>
+                    <td>: ${data5a}</td>
+                </tr><br>
+            </table>
+            <hr>
+            <table>
+                <tr id="sdisi">
+                    <td>SD</td>
+                    <td>: ${data6}</td>
+                    <td>Tahun Lulus</td>
+                    <td>: ${data6a}</td>
+                </tr>
+                <tr id="smpisi">
+                    <td>SMP</td>
+                    <td>: ${data7}</td>
+                    <td>Tahun Lulus</td>
+                    <td>: ${data7a}</td>
+                </tr>
+                <tr id="smaisi">
+                    <td>SMA/SMK</td>
+                    <td>: ${data8}</td>
+                    <td>Tahun Lulus</td>
+                    <td>: ${data8a}</td>
+                </tr>
+                <tr id="s1isi">
+                    <td>UNIVERSITAS</td>
+                    <td>: ${data9}</td>
+                    <td>Tahun Lulus</td>
+                    <td>: ${data9a}</td>
+                </tr>
+            </table>
+            <hr> 
+            <table>
+                <tr id="perusahaan1a">
+                    <td>Nama Perusahaan</td>
+                    <td>: ${data10}</td>
+                    <td>Lama Bekerja</td>
+                    <td>: ${data11}</td>
+                    <td>Jabatan</td>
+                    <td>: ${data12}</td>
+                </tr>
+                <tr id="perusahaan2b">
+                    <td>Nama Perusahaan</td>
+                    <td>: ${data10a}</td>
+                    <td>Lama Bekerja</td>
+                    <td>: ${data11a}</td>
+                    <td>Jabatan</td>
+                    <td>: ${data12a}</td>
+                </tr>
+            </table>
+            `
+            if (id('sdisicek').checked == true) {
+                    id('sdisi').hidden = true;
+                } else if (id('smpisicek').checked == true) {
+                    id('smpisi').hidden = true;
+                } else if (id('smaisicek').checked == true) {
+                    id('smaisi').hidden = true;
+                } else if (id('s1isicek').checked == true) {
+                    id('s1isi').hidden = true;
+                }
+
+            if (id("perusahaan1cek").checked == true) {
+                    id("perusahaan1a").hidden = true;
+            } else if (id("perusahaan2cek").checked == true) {
+                    id("perusahaan2b").hidden = true;
+            } 
+        }
+    </script>
+
+</body>
+</html>
